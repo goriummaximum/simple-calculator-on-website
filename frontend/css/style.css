@@ -1,0 +1,61 @@
+html {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #282828;
+}
+
+div.calculator {
+    width: min-content;
+    border: 2px solid rgba(118, 152, 163, 1);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 200px auto;
+}
+
+
+#screen {
+    height: 24pt;
+    width: 430px;
+    border: 2px solid rgba(118, 152, 163, 1);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+
+    text-align: right;
+    color: white;
+    font-size: 20pt;
+}
+
+div.bmatrix {
+    width: fit-content;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+#bmatrix tr, td {
+    padding: 5px;
+}
+
+#bmatrix button {
+    background-color:#282828;
+    height: 40px;
+    width: 80px;
+    border: 2px solid rgba(118, 152, 163, 1);
+    border-radius: 10px;
+
+    text-align: center;
+    color: white;
+    font-size: 16pt;
+}
+
+#bmatrix button:hover {
+    background-color: rgba(118, 152, 163, 1);
+    border-color: rgba(118, 152, 163, 1);
+}
+
+#bmatrix button:active {
+    background-color: rgba(55, 70, 75, 1);
+    border-color: rgba(55, 70, 75, 1);    
+}

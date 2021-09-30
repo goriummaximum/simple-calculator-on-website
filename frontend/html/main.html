@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A simple Calculator</title>
+        <!--add external css-->
+        <link rel="stylesheet" href="../css/style.css">
+        <!--add external js-->
+        <script type="text/javascript" src="../js/script.js"></script>
+    </head>
+
+    <body>
+        <!--calculator area-->
+        <div class="calculator">
+            <!--screen area-->
+            <div id="screen">
+                <!--Text area-->
+            </div>
+
+            <!--button area-->
+            <div class="bmatrix">
+                <table id="bmatrix">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><button id="ON" type="button" onclick="process_button_click_rst()">RST</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button id="num7" type="button" onclick="process_button_click_number(7)">7</button></td>
+                        <td><button id="num8" type="button" onclick="process_button_click_number(8)">8</button></td>
+                        <td><button id="num9" type="button" onclick="process_button_click_number(9)">9</button></td>
+                        <td><button id="DEL" type="button" onclick="process_button_click_del()">DEL</button></td>
+                        <td><button id="AC" type="button" onclick="process_button_click_ac()">AC</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button id="num4" type="button" onclick="process_button_click_number(4)">4</button></td>
+                        <td><button id="num5" type="button" onclick="process_button_click_number(5)">5</button></td>
+                        <td><button id="num6" type="button" onclick="process_button_click_number(6)">6</button></td>
+                        <td><button id="mul" type="button" onclick="process_button_click_op('*')">*</button></td>
+                        <td><button id="divide" type="button" onclick="process_button_click_op('/')">/</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button id="num1" type="button" onclick="process_button_click_number(1)">1</button></td>
+                        <td><button id="num2" type="button" onclick="process_button_click_number(2)">2</button></td>
+                        <td><button id="num3" type="button" onclick="process_button_click_number(3)">3</button></td>
+                        <td><button id="plus" type="button" onclick="process_button_click_op('+')">+</button></td>
+                        <td><button id="minus" type="button" onclick="process_button_click_op('-')">-</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button id="num0" type="button" onclick="process_button_click_number(0)">0</button></td>
+                        <td><button id="dot" type="button" onclick="process_button_click_dot()">.</button></td>
+                        <td></td>
+                        <td><button id="ans" type="button" onclick="process_button_click_ans()">ANS</button></td>
+                        <td><button id="equal" type="button" onclick="process_button_click_equal()">=</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </body>
+</html>
