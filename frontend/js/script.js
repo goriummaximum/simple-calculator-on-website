@@ -1,3 +1,5 @@
+//import {evaluate} from './node_modules/mathjs'
+
 const SCREEN_MAX_CHAR = 20;
 
 const inputState = {
@@ -19,7 +21,7 @@ class MathExpression {
     }
 
     compute_exp() {
-        return 123.5;
+        return eval(this.exp_str);
     }
 }
 
